@@ -10,15 +10,15 @@
          rejectUnauthorized: false
      },
      auth: {
-         user: 'aranyogesh04@gmail.com',
-         pass: '0ne@1one@1',
+         user: 'Enter your email id',
+         pass: 'Enter your Password',
 
      }
  })
 
  transporter.sendEmail({
-     from: 'aranyogesh04@gmail.com',
-     to: 'yogeshmahe04@gmail.com',
+     from: 'Enter your email id',
+     to: 'recievers email id ',
      subject: 'project testing mail',
      Text: 'this is an automatic mail'
 
